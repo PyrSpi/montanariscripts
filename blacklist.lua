@@ -17,15 +17,15 @@ game.Players.PlayerAdded:Connect(function(plr)
 		plr:Kick("You are in a blacklisted group (Mirafloria/Thrymgard). Please leave it to join this game.")
 		print("Kicked Miraflorian:", plr.Name)
 		
-	-- Knights of Frostshire	
+	--[[ Knights of Frostshire	
 	elseif plr:IsInGroup(34442019) then
 		plr:Kick("You are in a blacklisted group (Frostshire).")
-		print("Kicked Frostshirean:", plr.Name) 
+		print("Kicked Frostshirean:", plr.Name) ]]
 	
 	--[[ Kingdom of Connacht
 	elseif plr:IsInGroup(34799711) then
 		plr:Kick("You are in a blacklisted group (Connacht).")
-		print("Kicked Connachtian:", plr.Name)]]
+		print("Kicked Connachtian:", plr.Name) ]]
 		
 	-- Kingdom of Veloria	
 	elseif plr:IsInGroup(35465855) then
@@ -51,6 +51,11 @@ game.Players.PlayerAdded:Connect(function(plr)
 	elseif plr:IsInGroup(16609942) then
 		plr:Kick("You are in a blacklisted group (Lytherion).")
 		print("Kicked Lytherian:", plr.Name)
+
+	-- Templars of The Dawn
+	elseif plr:IsInGroup(10284613) then
+		plr:Kick("You are in a blacklisted group, Templars of The Dawn. TOTD has been blacklisted for harassment, nepotistic corruption, collaboration with enemies, and defamation. Please leave it to join this game.")
+		print("Kicked Templar:", plr.Name) 
 		
 	-------------------------------
 	---- DEGENERATE BLACKLISTS ---- 
@@ -63,13 +68,13 @@ game.Players.PlayerAdded:Connect(function(plr)
 		
 	-- OGRE CLAN / DRAGON CLAN 
 	elseif plr:IsInGroup(10266623) or plr:IsInGroup(35663307) then
-		plr:Kick("You are in a blacklisted group, Ogre Clan, a notoriously degenerate and racist group with ties to predators and 'white sups'. Please leave it to join the game.")
+		plr:Kick("You are in a blacklisted group, Ogre Clan, a notoriously degenerate and WW2 Germany roleplaying group with ties to predators and 'white sups'. Please leave it to join the game.")
 		print("Kicked Ogre:", plr.Name)
       
-  	-- Valhalla Reborn
+  	--[[ Valhalla Reborn
   	elseif plr:IsInGroup(35738646) then
 		plr:Kick("You are in a blacklisted group, Valhalla Reborn, a group that has ties to racist and degenerate communities. Please leave it to join the game.")
-		print("Kicked Valhallan:", plr.Name)
+		print("Kicked Valhallan:", plr.Name) ]]
 
 	-- High Kingdom of Elyndor
 	elseif plr:IsInGroup(34989992) then 
@@ -81,10 +86,10 @@ game.Players.PlayerAdded:Connect(function(plr)
 		plr:Kick("You are in a blacklisted genre, Virdia, notorious for being filled with predators, degenerates and 'white sups'. Please leave it to join the game.")
 		print("Kicked Virdian:", plr.Name)
 		
-	-- Crimson Knights of Bloodspire
+	--[[ Crimson Knights of Bloodspire
 	elseif plr:IsInGroup(11551766) then
 		plr:Kick("You are in a blacklisted group, Crimsom Knights, notorious for its preteen leadership (King and Queen admited to being 12) and association with degenerate groups. Please leave it to join the game.")
-		print("Kicked Crimson Knight:", plr.Name)
+		print("Kicked Crimson Knight:", plr.Name)]]
 		
 	-- The Kingdom of Greater Bolts
 	elseif plr:IsInGroup(34124788) then
