@@ -1,13 +1,5 @@
 game.Players.PlayerAdded:Connect(function(plr)
 	
-	--------------------
-	---- WHITELISTS ----
-	--------------------
-	
-	--[[ TOTD Hicomm
-	if plr:GetRankInGroup(10284613) >= 18 then
-		print(plr.Name, "joined")]]
-	
 	--------------------------
 	---- ENEMY BLACKLISTS ----
 	--------------------------
