@@ -5,7 +5,7 @@ game.Players.PlayerAdded:Connect(function(plr)
 	--------------------------
 
   	-- Thrymguard
-	elseif plr:IsInGroup(35647814) then
+	if plr:IsInGroup(35647814) then
 		plr:Kick("You are in a blacklisted group (Mirafloria/Thrymgard). Please leave it to join this game.")
 		print("Kicked Miraflorian:", plr.Name)
 		
