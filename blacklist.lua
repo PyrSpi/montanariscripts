@@ -102,9 +102,9 @@ game.Players.PlayerAdded:Connect(function(plr)
 	---- OTHER BLACKLISTS ----
 	--------------------------
 
-	elseif plr.AccountAge < 20 then
+	--[[ elseif plr.AccountAge < 20 then
 		plr:Kick("Your account is too young to join the game.")
-		print("Kicked baby account:", plr.Name)
+		print("Kicked baby account:", plr.Name) ]]
 	
 	elseif (function()
 			local success, result = pcall(function()
